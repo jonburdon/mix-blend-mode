@@ -10,15 +10,20 @@
   <body>
     <script src="index.js"></script>
     <h1>CSS Mix Blend Mode</h1>
-    <h5>Example 1</h5>
-	
+
+    <h5>Example 1: Exclusion</h5>
     <section class="standard-section parent1">
       <div class="box1 square "></div>
-      <div class="box2 rect "></div>
-      <div class="box2 square "></div>
+      <div class="box2 rect offsetsquare exclusion"></div>
     </section>
 
- 
-    
+    <h5>Example 2: Multiply</h5>
+    <section class="standard-section grey parent1">
+      <div class="box1 square  "></div>
+      <div class="box2 rect offsetsquare multiply"></div>
+    </section>
+
+ <h4>Reference</h4>
+    <a href="https://css-tricks.com/almanac/properties/m/mix-blend-mode/">CSS Tricks</a>
   </body>
 </html>

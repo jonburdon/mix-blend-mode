@@ -7,8 +7,7 @@
     border: solid 1px black;
     background-color: white;
 
-    display: flex;
-    justify-content: space-around;
+
 }
 
 
@@ -36,3 +35,14 @@
     background-color: blue;
 }
 
+.grey {
+    background-color: lightgrey;
+}
+
+.exclusion {
+mix-blend-mode: exclusion;
+}
+
+.multiply {
+    mix-blend-mode: multiply;
+    }
