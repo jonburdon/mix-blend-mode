@@ -1,0 +1,38 @@
+.standard-section {
+    border: solid 1px black;
+    padding: 20px;
+}
+
+.parent1 {
+    border: solid 1px black;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.square {
+    width: 50px;
+    height: 50px;
+}
+
+.rect {
+    width: 150px;
+    height: 50px;
+}
+
+.offsetsquare {
+    margin-left: 25px;
+    margin-top: -25px;
+    z-index: 1;
+}
+
+.box1 {
+    background-color: black;
+}
+
+.box2 {
+    background-color: blue;
+}
+
